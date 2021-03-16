@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ScreenTitle.gd" type="Script" id=1]
+
+[node name="Node" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="MenuMain" type="Control" parent="."]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ContainerMenu" type="VBoxContainer" parent="MenuMain"]
+margin_left = 779.0
+margin_top = 395.0
+margin_right = 851.0
+margin_bottom = 463.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NewGame" type="Label" parent="MenuMain/ContainerMenu"]
+margin_right = 72.0
+margin_bottom = 14.0
+text = "New Game"
+
+[node name="TextureButton" type="TextureButton" parent="MenuMain/ContainerMenu/NewGame"]
+margin_right = 72.0
+margin_bottom = 13.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoadGame" type="Label" parent="MenuMain/ContainerMenu"]
+margin_top = 18.0
+margin_right = 72.0
+margin_bottom = 32.0
+text = "Load Game"
+
+[node name="TextureButton" type="TextureButton" parent="MenuMain/ContainerMenu/LoadGame"]
+margin_right = 72.0
+margin_bottom = 13.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Options" type="Label" parent="MenuMain/ContainerMenu"]
+margin_top = 36.0
+margin_right = 72.0
+margin_bottom = 50.0
+text = "Options"
+
+[node name="TextureButton" type="TextureButton" parent="MenuMain/ContainerMenu/Options"]
+margin_right = 52.0
+margin_bottom = 13.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Label" parent="MenuMain/ContainerMenu"]
+margin_top = 54.0
+margin_right = 72.0
+margin_bottom = 68.0
+text = "Exit"
+
+[node name="TextureButton" type="TextureButton" parent="MenuMain/ContainerMenu/Exit"]
+margin_right = 25.0
+margin_bottom = 13.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

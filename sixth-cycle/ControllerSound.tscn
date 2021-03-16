@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://SubcontrollerStreamAudio.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ControllerSound.gd" type="Script" id=2]
+
+[node name="ControllerSound" type="Node"]
+script = ExtResource( 2 )
+
+[node name="StreamBgm" type="AudioStreamPlayer" parent="."]
+
+[node name="StreamSfx" type="AudioStreamPlayer" parent="."]
+
+[node name="StreamVoice" type="AudioStreamPlayer" parent="."]
+
+[node name="SubconTest" parent="." instance=ExtResource( 1 )]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/branflakes-Gallant-Challenge-_VRC6-8-Bit_-Genshin-Impact.ogg-3fac7b048ba62c3005aa0adaea1fe660.oggstr"
+
+[deps]
+
+source_file="res://branflakes-Gallant-Challenge-_VRC6-8-Bit_-Genshin-Impact.ogg"
+dest_files=[ "res://.import/branflakes-Gallant-Challenge-_VRC6-8-Bit_-Genshin-Impact.ogg-3fac7b048ba62c3005aa0adaea1fe660.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
